@@ -3,7 +3,7 @@ body {
 	margin:0px auto;
 	padding:0px;
 	background-color: rgb(37, 37, 37); /* remove this in order to use the site's background */
-	}
+	} 
 .emblemmain {
 	background-color: none;
     border: 4px solid #6E942D;
@@ -13,6 +13,7 @@ body {
     min-width: 930px;
     width: 80%;
 	z-index: -2;
+	max-width:1472px;
 }
 .btn_style {
 	cursor: pointer;
@@ -142,6 +143,7 @@ body {
     font-size: 15px;
     line-height: 5px;
     text-align: center;
+	height: 17px;
 }
 
 .colorbox .colorselect {
