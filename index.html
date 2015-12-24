@@ -1,0 +1,53 @@
+﻿<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+<div class="emblemmain" id="emblemmain">
+	<div id="infobox" style="position:absolute; padding: 10px 10px; margin:0; visibility: hidden; font-size: 40px; background-color: rgba(50,50,50,0.95); color: white; text-align: center; z-index:10;"></div>
+	<div id="previewcont">
+		<div class="guildinfo">
+			<h1><span>Guild Name:</span></h1>
+			<input id="guildname" type="text" maxlength="16" placeholder="Guild name" onkeyup="regGuildName(this.value)"></input>
+		</div>
+		<div class="prv" style="min-width: 304px; width: 65%;">
+			<canvas id="char_preview" width=300px height=200px>
+			</canvas>
+		</div>
+		<div class="prv" style="min-width: 158px; width: 34%;">
+			<canvas id="preview" width=128px height=128px>
+			</canvas>
+		</div>
+		<div class="savecont">
+			<div class="button saveas l" id="dataEditBtn" onclick="save()">Save</div>
+			<div class="button saveas r" onclick="dataEdit(this)">▼</div>
+			<div style="visibility: hidden;" id="dataEdit">
+				<ul>
+					<li onclick="load()">Load</li>
+					<li onclick="getURL()">URL Export</li>
+					<li onclick="clearCache()">Clear cache</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="color">
+		<h1><span>Symbol Color</span></h1>
+		<div id="symbol" class="colorbox">
+		</div>
+		<h1><span>Border Color</span></h1>
+		<div id="border" class="colorbox">
+			
+		</div>
+		<h1><span>Background Color</span></h1>
+		<div id="background" class="colorbox">
+		</div>
+		<div class="button" onclick="randomize()">Randomize</div>
+	</div>
+	<div class="fullwidth">
+	<div id="symbols">
+	</div>
+	<div id="backgrounds">
+	</div>
+	</div>
+
+	<div style="position:absolute; z-index:-1; left: Calc(50% - 238px); top: 342px; opacity:0.1;"><img src="./images/watermarkrevelations.png"></img></div>
+	<div style="position:relative; z-index:1; left: 0px; top: 0px;"><a style="color:green; text-decoration:none;" target="blank" href="https://dborevelations.com">©DBORevelations.com 2013-2015</a></div>
+</div>
+<script src="./js/main.js"></script>

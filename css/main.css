@@ -1,0 +1,308 @@
+body {
+	max-width:1840px;
+	margin:0px auto;
+	padding:0px;
+	background-color: rgb(37, 37, 37); /* remove this in order to use the site's background */
+	}
+.emblemmain {
+	background-color: none;
+    border: 4px solid #6E942D;
+    border-radius: 5px;
+    height: 800px;
+    margin: 0 auto;
+    min-width: 930px;
+    width: 80%;
+	z-index: -2;
+}
+.btn_style {
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	border:1px solid green;
+	color: #FFFFFF;
+	padding: 4px;
+	display:block;
+	margin: 0;
+	float:left;
+	text-shadow: 0px 1px 1px #000000;
+	background-image: linear-gradient(to top, #000000, rgba(140, 140, 140, 0.43));
+}
+
+.btn_style:hover {
+	background-color:#5A5555;
+	background-image: linear-gradient(to top, #000000, #8C8C8C);	
+ }
+ 
+.fullwidth {
+	width:100%;		
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	display:block;
+	float:top
+}
+
+/* sexy scroll bar ya'll*/
+::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: black;
+}
+
+
+#previewcont {
+    display: inline-block;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+	float:left;
+    width: calc(50%);
+}
+
+
+#preview {
+	float:left;
+	display: inline-block;
+    margin: 61px 0 0 3px;
+    padding: 14px;
+	border: 1px solid green;
+	-webkit-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	 box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+}
+
+/** boxes 1-3 **/
+#color {
+
+    display: inline-block;
+    height: 390px;
+    margin: 10px 0px 0 20px;
+    width: calc(50% - 20px);
+	
+}
+#symbols {
+    display: inline-block;
+    height: 378px;
+    margin: 10px 10px;
+    max-width: 1400px;
+    overflow: auto;
+    width: calc(50% - 30px);
+	border: 1px solid green;
+	-webkit-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+}
+#backgrounds {
+    display: inline-block;
+    height: 378px;
+    margin: 10px 10px;
+    max-width: 1400px;
+    overflow: auto;
+    width: calc(50% - 22px);
+	
+	border: 1px solid green;
+	-webkit-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+}
+
+.colorbox {
+    border: 1px solid green;
+    height: 75px;
+    margin: 10px auto 0;
+    overflow:auto;
+    padding-left: 20px;
+    width: calc(100% - 22px);
+	max-width: 470px;
+	-webkit-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	
+}
+#color h1 {
+    color: white;
+	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 15px;
+    line-height: 5px;
+    text-align: center;
+}
+
+.colorbox .colorselect {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    height: 28px;
+    margin: 2px;
+    width: 22px;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+    -ms-transform: rotate(40deg); /* IE fook boiz */
+    -webkit-transform: rotate(40deg); /* WEBKIT MASTER RACE */
+    transform: rotate(40deg); /* bland plebbians */
+}
+
+.savecont{
+	display:block;
+	height: 0px;
+	float:left;
+	width: 100%;
+	height: 50px;
+}
+
+.button.saveas.r, .button.saveas.r a {
+	display:inline-block;
+	margin: 10px 0px 0px -1px;
+	padding: 5px 2px;
+	width: 20px;
+}
+
+.button.saveas.l, .button.saveas.l a {
+	display:inline-block;
+	margin-top: 10px;
+	padding: 5px 30px;
+	width: 60px;
+	margin: 10px 0 10px Calc(50% - 50px);
+}
+
+#dataEdit{
+	width: 145px;
+	height: 83px;
+	position: absolute; 
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	background-color:green;
+	-moz-box-shadow: 0px 0px 14px -1px green;
+	-webkit-box-shadow: 0px 0px 14px -1px green;
+	box-shadow: 0px 0px 14px -1px green;
+	
+	border:1px solid #18ab29;
+	border-top: none;
+}
+
+#dataEdit > ul{
+	list-style: none;
+	margin: 4px 0 0 0;
+	padding: 0;
+	overflow: auto;
+}
+
+#dataEdit > ul > li{	
+	cursor:pointer;
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	width: calc(100% - 2px);
+	text-align: center;
+	height: 17px;
+	margin: 0;
+	padding: 4px 0;
+	font-size:15px;
+	color:#ffffff;
+}
+
+#dataEdit > ul > li:hover{
+	background-color:#52ab25;
+	border:1px solid #ffffff;
+}
+
+.button, .button a {
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	-moz-box-shadow: 0px 0px 14px -1px green;
+	-webkit-box-shadow: 0px 0px 14px -1px green;
+	box-shadow: 0px 0px 14px -1px green;
+	background-color:green;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 50px;
+	float: left;
+	width: 80px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3C3333;
+	margin: 10px 0 10px Calc(50% - 90px);
+}
+
+.button:hover{
+	background-color:#52ab25;
+	border:1px solid #ffffff;
+}
+
+.button.active{
+	background-color:#52ab25;
+	border:1px solid #ffffff;
+}
+
+.guildinfo{
+	min-width: 150px;
+	width: calc(50% - 158px);
+	display: block;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.guildinfo input{
+	background-color: rgba(0,0,0,0);
+	color: yellow;
+    -webkit-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	 box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+}
+
+.guildinfo h1 {
+    color: white;
+	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 15px;
+    line-height: 5px;
+    text-align: center;
+}
+
+#guildname{
+	width: 100%;
+	max-width: 200px;
+}
+
+#char_preview{
+	padding: 0;
+	display: block;
+	float:right;
+	
+	/*box-shadow: 0px 0px 26px 10px green;*/
+	border: inset green 2px;
+    margin: 38px 3px 10px 0;
+	-webkit-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+	 box-shadow: inset 0px 0px 32px 1px rgba(0,0,0,1);
+}
+
+.prv{
+	padding:0;
+	margin:0;
+	float:left;
+}
